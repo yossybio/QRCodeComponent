@@ -1,8 +1,10 @@
 .center {
   margin-right: auto;
   margin-left: auto;
-  width: min-content;
-  transform: translate(0, 50%);
+  margin-top: 50vh;
+  transform: translate(0, -50%);
+  width: 22.8vw;
+  max-width: 44rem;
 }
 
 .container {
@@ -53,4 +55,53 @@
   line-height: 2.1rem;
   text-align: center;
   letter-spacing: 0.2px;
+}
+
+/* Styles for screens smaller than 1374px */
+@media (max-width: 85.875rem) {
+  .center {
+    width: 27.8vw;
+  }
+}
+
+/* Styles for screens smaller than 1127px */
+@media (max-width: 70.44rem) {
+  .center {
+    width: 34vw;
+  }
+}
+
+/* Styles for screens smaller than 927px */
+@media (max-width: 57.94rem) {
+  .center {
+    width: 43.8vw;
+  }
+}
+
+/* Styles for screens smaller than 715px */
+@media (max-width: 44.68rem) {
+  .center {
+    width: 60.8vw;
+  }
+}
+
+/* Styles for screens smaller than 515px */
+@media (max-width: 32.19rem) {
+  .center {
+    width: 83.8vw;
+  }
+}
+
+/* Styles for screens smaller than 375px */
+@media (max-width: 23.44rem) {
+  .center {
+    width: 97.6vw;
+  }
+}
+
+/* Styles for screens smaller than 320px */
+@media (max-width: 20rem) {
+  .center {
+    width: 99vw;
+  }
 }
